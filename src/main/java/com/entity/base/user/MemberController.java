@@ -38,7 +38,6 @@ public class MemberController {
                 .id(memberDetails.getId())
                 .username(memberDetails.getUsername())
                 .email(memberDetails.getEmail())
-                .name(memberDetails.getName())
                 .build();
         return memberService.save(member);
     }
